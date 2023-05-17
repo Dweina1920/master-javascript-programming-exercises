@@ -5,3 +5,6 @@ function addProperty(obj, key) {
 let myObj = {};
 addProperty(myObj, "myProperty");
 console.log(myObj.myProperty); // --> true
+let my = {}
+addProperty(my, 'hola')
+console.log(my.hola)
